@@ -1,0 +1,9 @@
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\bin\Debug\LACERASharedTests.dll
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\bin\Debug\LACERASharedTests.pdb
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\bin\Debug\LACERAShared.dll
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\bin\Debug\nunit.framework.dll
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\bin\Debug\LACERAShared.pdb
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\bin\Debug\nunit.framework.xml
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\obj\Debug\LACERASharedTests.csprojResolveAssemblyReference.cache
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\obj\Debug\LACERASharedTests.dll
+C:\Users\glackerman\documents\visual studio 2015\Projects\LACERA\LACERASharedTests\obj\Debug\LACERASharedTests.pdb

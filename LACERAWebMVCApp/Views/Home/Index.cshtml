@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using LACERAShared.Models
+@model List<Employee>
+<div class="jumbotron">
+    <h3>LACERA Employee Import Test</h3>
+    <p class="lead">Employee CSV Importer</p>
+</div>
+<table>
+    <tr>
+        <th>Employee Name</th>
+        <th>Birthdate</th>
+        <th>Salary</th>
+        <th>Date Hired</th>
+    </tr>
+    @if(Model != null)
+    {
+        foreach(var c in Model)
+        {
+            <tr>
+                <td>@c.Name</td>
+                <td>@(c.Birthdate.HasValue ? ((DateTime)c.Birthdate).Date.ToString("d") : "N/A")</td>
+                <td>@c.Salary</td>
+                <td>@(c.DateHired.HasValue ? ((DateTime)c.DateHired).Date.ToString("d") : "N/A")</td>
+            </tr>
+        }
+    }
+</table>
+<form action="" method="post" enctype="multipart/form-data">
+    <table style="margin-top:150px">
+        <tr>
+            <td><label for="file">Filename:</label></td>
+            <td><input type="file" name="file" id="file" /></td>
+            <td><input type="submit" value="Upload" /></td>
+        </tr>
+    </table>
+</form>
